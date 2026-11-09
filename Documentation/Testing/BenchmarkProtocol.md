@@ -24,6 +24,14 @@ build and variability is not a result.
 | `spawn-idle-calamity` | TPO + Calamity Mod (no Calamity Music, no other mods) | Diagnostics on, overlay off; world difficulty unchanged (no Revengeance/Death) | Cost of Calamity being loaded in the same idle scene (Plan 03) |
 | `spawn-idle-<modpack>` | TPO + other modpack | Diagnostics on, overlay off | Baseline for a mod combination (Plan 03) |
 
+**Memory:** unloading a mod does not return all of its memory (measured: working set stayed ~2.3 GB after unloading
+Calamity). Compare memory only between **fresh game launches**, one launch per mod set. CPU metrics can be compared
+within one session. Note the game launch (session) of each run in the report; cross-session spread is larger than
+in-session spread (Calamity: about ±9 % draw, ±12 % update).
+
+Before every set, check the summary against the previous set: `resolution`, `frame_skip_mode`, `ui_scale`,
+`player_tile_position` and `mods` must match, otherwise the sets are not comparable.
+
 Mod-combination scenarios use the **same world, character, position and TPO build** as the vanilla `spawn-idle`
 baseline they are compared with. The 0.2.0/0.3.0 baselines used world `123` at tile `2095,227`, not the
 `tpobench1` world from section 1; keep using world `123` for comparisons with those baselines.
