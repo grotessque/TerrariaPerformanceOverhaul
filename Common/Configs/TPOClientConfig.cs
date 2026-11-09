@@ -22,11 +22,20 @@ namespace TerrariaPerformanceOverhaul.Common.Configs
 		[DefaultValue(false)]
 		public bool ShowOverlay;
 
+		[Header("BenchmarkTools")]
+
+		/// <summary>
+		/// Enables /tpo god, spawn, event, time and clear (single player only). These change the game and the world
+		/// when it is saved. Off by default.
+		/// </summary>
+		[DefaultValue(false)]
+		public bool EnableBenchmarkTools;
+
 		// Not serialized (non-public). Used to log only real changes, not every OnChanged call.
 		private string lastLogged;
 
 		public override void OnChanged() {
-			string state = $"EnableDiagnostics = {EnableDiagnostics}, ShowOverlay = {ShowOverlay}";
+			string state = $"EnableDiagnostics = {EnableDiagnostics}, ShowOverlay = {ShowOverlay}, EnableBenchmarkTools = {EnableBenchmarkTools}";
 			if (state == lastLogged)
 				return;
 

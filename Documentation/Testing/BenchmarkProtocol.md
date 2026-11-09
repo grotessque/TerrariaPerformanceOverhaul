@@ -36,6 +36,28 @@ Mod-combination scenarios use the **same world, character, position and TPO buil
 baseline they are compared with. The 0.2.0/0.3.0 baselines used world `123` at tile `2095,227`, not the
 `tpobench1` world from section 1; keep using world `123` for comparisons with those baselines.
 
+### Boss scenarios (TPO 0.4.0+, uses Documentation/Testing/BenchmarkTools.md)
+
+Settings for all boss scenarios: **2560x1440 fullscreen, vsync on, frame skip Subtle**, lighting Color, zoom 1,
+UI scale unchanged; world `123`; Journey powers: time frozen, enemy spawn rate default.
+
+| Scenario name | Mods | Boss (`/tpo spawn`) |
+|---|---|---|
+| `boss-eoc` | TPO only | `EyeofCthulhu` |
+| `boss-eoc-calamity` | TPO + Calamity | `EyeofCthulhu` (same vanilla boss, with Calamity loaded) |
+| `boss-<name>-calamity` | TPO + Calamity | a Calamity boss, name from `/tpo find`; record the exact name in the report |
+
+Procedure for one boss run (repeat 3× per scenario, one game launch per mod set):
+1. Stand at the fixed position. `/tpo clear`, `/tpo time midnight`, `/tpo god on`.
+2. `/tpo spawn <boss>`. Wait until the boss is on screen and attacking (about 10 s).
+3. `/tpo bench <scenario> 60 10`. Do not touch mouse/keyboard.
+4. After "finished": `/tpo clear`. Wait 10 s before the next run.
+5. Check `active_bosses_start` and `active_bosses_end` in each summary: the boss must be present in both,
+   otherwise the boss despawned or died and the run is discarded.
+
+Boss fights are not deterministic (AI uses random numbers), so the spread between runs is larger than in idle scenes.
+Use at least 3 runs and compare ranges, not single values.
+
 Add new scenarios here before using them. Use only letters, digits, `_` and `-` in names.
 
 ## 2a. Which metrics to compare

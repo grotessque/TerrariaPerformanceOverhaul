@@ -3,8 +3,8 @@
 A diagnostics-first performance mod for tModLoader. TPO measures first and optimizes only where
 measurements justify it, while preserving vanilla and other mods' behavior.
 
-**Status:** 0.3.0 development — diagnostics and benchmarks (Plan 01). No performance optimizations yet.
-Windows status: 0.1.0 PASSED; 0.2.0 PASSED (6de6ff8dec65); 0.3.0 NOT TESTED.
+**Status:** 0.4.0 development — diagnostics, benchmarks and benchmark scene tools. No performance optimizations yet.
+Windows status: 0.1.0, 0.2.0, 0.3.0 PASSED; 0.4.0 NOT TESTED. Compatibility: `Documentation/Compatibility/CompatibilityMatrix.md`.
 
 ## Layout
 
@@ -15,6 +15,7 @@ Windows status: 0.1.0 PASSED; 0.2.0 PASSED (6de6ff8dec65); 0.3.0 NOT TESTED.
 | `Localization/` | UI text (hjson) |
 | `docs/` | Development plans 00–06 |
 | `Documentation/` | Environment, test procedures, test reports |
+| `Common/BenchmarkTools/` | Single-player scene setup tools (god mode, spawn, events, time, clear) |
 | `Common/Diagnostics/` | Frame-time sampler, memory/GC indicators, overlay, benchmark sessions, CSV export |
 | `tests/LogicTests/` | Dependency-free tests for pure logic (`scripts/test.sh`) |
 | `scripts/` | Build and test helpers |
@@ -43,6 +44,8 @@ Enable diagnostics first: Settings → Mod Configuration → TPO Client Settings
 - `/tpo stats` — last 1000 frames: FPS, mean/p50/p95/p99/max frame time; CPU draw/update time; process memory and GC.
 - `/tpo bench <scenario> [seconds=60] [warmup=10]` — record a benchmark to CSV; `/tpo bench stop` aborts.
 - Overlay: "Show overlay" in the config.
+- Benchmark tools (single player, config "Enable benchmark tools"): `/tpo god`, `/tpo find`, `/tpo spawn`,
+  `/tpo event`, `/tpo time`, `/tpo clear` — see `Documentation/Testing/BenchmarkTools.md`.
 
 Benchmark files: `Documents/My Games/Terraria/tModLoader/TPO/Benchmarks/`.
 Format: `Documentation/Diagnostics/CsvSchema.md`. Procedure: `Documentation/Testing/BenchmarkProtocol.md`.

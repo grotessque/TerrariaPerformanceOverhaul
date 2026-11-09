@@ -7,6 +7,7 @@ Configs: {
 
 		Headers: {
 			Diagnostics: Diagnostics
+			BenchmarkTools: Benchmark tools
 		}
 
 		EnableDiagnostics: {
@@ -25,6 +26,16 @@ Configs: {
 				'''
 				Compact FPS / frame-time / memory overlay in the bottom-right corner.
 				Requires "Enable diagnostics". Refreshed twice per second.
+				'''
+		}
+
+		EnableBenchmarkTools: {
+			Label: Enable benchmark tools
+			Tooltip:
+				'''
+				Single player only. Enables chat commands that set up benchmark scenes:
+				/tpo god, /tpo spawn, /tpo find, /tpo event, /tpo time, /tpo clear.
+				They change the game state and the world when it is saved. Back up the world first.
 				'''
 		}
 	}

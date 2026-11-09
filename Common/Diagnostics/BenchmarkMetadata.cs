@@ -64,6 +64,9 @@ namespace TerrariaPerformanceOverhaul.Common.Diagnostics
 				return p == null ? null : $"{(int)(p.Center.X / 16)},{(int)(p.Center.Y / 16)}";
 			});
 			Add("day_time", () => Main.dayTime);
+			Add("time", () => (int)Main.time);
+			Add("events", ActiveEvents);
+			Add("god_mode", () => Main.LocalPlayer?.GetModPlayer<BenchmarkTools.GodModePlayer>()?.GodMode);
 			AddEntityCounts(list, "start");
 
 			// Mods: name@version for every loaded mod, in load order.
@@ -80,6 +83,25 @@ namespace TerrariaPerformanceOverhaul.Common.Diagnostics
 			list.Add(new($"active_items_{suffix}", Safe(() => Main.item.Count(i => i != null && i.active))));
 			list.Add(new($"active_dust_{suffix}", Safe(() => Main.dust.Count(d => d != null && d.active))));
 			list.Add(new($"active_gore_{suffix}", Safe(() => Main.gore.Count(g => g != null && g.active))));
+			list.Add(new($"active_bosses_{suffix}", Safe(() => string.Join(";", Main.npc
+				.Where(n => n != null && n.active && n.boss)
+				.GroupBy(n => BenchmarkTools.SceneTools.InternalName(n.type))
+				.Select(g => g.Count() > 1 ? $"{g.Key}x{g.Count()}" : g.Key)))));
+		}
+
+		private static object ActiveEvents() {
+			var e = new List<string>();
+			if (Main.invasionType != 0)
+				e.Add($"invasion{Main.invasionType}");
+			if (Main.bloodMoon)
+				e.Add("bloodmoon");
+			if (Main.eclipse)
+				e.Add("eclipse");
+			if (Main.pumpkinMoon)
+				e.Add("pumpkinmoon");
+			if (Main.snowMoon)
+				e.Add("frostmoon");
+			return e.Count == 0 ? "none" : string.Join(";", e);
 		}
 
 		internal static string Safe(Func<object> value) {
