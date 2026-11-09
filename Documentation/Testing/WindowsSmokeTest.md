@@ -18,6 +18,9 @@ Save the result as `Documentation/TestReports/<date>-<version>-<commit>.md` (use
 3. Copy the file to `%USERPROFILE%\Documents\My Games\Terraria\tModLoader\Mods\` and **rename it to
    `TerrariaPerformanceOverhaul.tmod`** (tModLoader requires the internal mod name as the file name).
    Remove any older `TerrariaPerformanceOverhaul.tmod` first.
+   If tModLoader reports that the file "was downloaded from the internet … has not been trusted", Windows has marked
+   the copied file (Mark-of-the-Web). Either trust it in tModLoader or, before starting the game, run
+   `Unblock-File .\TerrariaPerformanceOverhaul.tmod` in PowerShell (or File Properties → Unblock).
 4. Start tModLoader. Open **Workshop → Manage Mods**. Confirm "TPO" is listed with version of the build under test (for example `0.2.0`).
 5. Enable TPO, click **Reload Mods**. Expected: no error screen.
 6. Open `client.log`. Expected exactly one line like:
