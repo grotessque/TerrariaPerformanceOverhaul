@@ -18,10 +18,10 @@ Save the result as `Documentation/TestReports/<date>-<version>-<commit>.md` (use
 3. Copy the file to `%USERPROFILE%\Documents\My Games\Terraria\tModLoader\Mods\` and **rename it to
    `TerrariaPerformanceOverhaul.tmod`** (tModLoader requires the internal mod name as the file name).
    Remove any older `TerrariaPerformanceOverhaul.tmod` first.
-4. Start tModLoader. Open **Workshop → Manage Mods**. Confirm "TPO" is listed with version `0.1.0`.
+4. Start tModLoader. Open **Workshop → Manage Mods**. Confirm "TPO" is listed with version of the build under test (for example `0.2.0`).
 5. Enable TPO, click **Reload Mods**. Expected: no error screen.
 6. Open `client.log`. Expected exactly one line like:
-   `[TerrariaPerformanceOverhaul]: Loading. TPO 0.1.0 (commit <commit>, Release) | tModLoader <version> ...`
+   `[TerrariaPerformanceOverhaul]: Loading. TPO <version> (commit <commit>, Release) | tModLoader <version> ...`
    The commit must match the artifact file name.
 7. Open **Settings → Mod Configuration → TPO → TPO Client Settings**. Confirm "Enable diagnostics" exists,
    default off. Toggle it on, save. Expected log line: `Config: EnableDiagnostics = True`. Toggle back off.

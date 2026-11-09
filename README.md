@@ -3,8 +3,8 @@
 A diagnostics-first performance mod for tModLoader. TPO measures first and optimizes only where
 measurements justify it, while preserving vanilla and other mods' behavior.
 
-**Status:** 0.1.0 development. Foundation only: build identity, configuration, clean load/unload.
-No performance optimizations yet. Windows status: PASSED for 0.1.0 (f83727af71ec).
+**Status:** 0.2.0 development — diagnostics and benchmarks (Plan 01). No performance optimizations yet.
+Windows status: 0.1.0 PASSED (f83727af71ec); 0.2.0 NOT TESTED.
 
 ## Layout
 
@@ -15,7 +15,9 @@ No performance optimizations yet. Windows status: PASSED for 0.1.0 (f83727af71ec
 | `Localization/` | UI text (hjson) |
 | `docs/` | Development plans 00–06 |
 | `Documentation/` | Environment, test procedures, test reports |
-| `scripts/` | Build helpers |
+| `Common/Diagnostics/` | Frame-time sampler, memory/GC indicators, overlay, benchmark sessions, CSV export |
+| `tests/LogicTests/` | Dependency-free tests for pure logic (`scripts/test.sh`) |
+| `scripts/` | Build and test helpers |
 | `CLAUDE.md` | Engineering rules for AI-assisted development |
 
 ## Build (Ubuntu)
@@ -31,9 +33,16 @@ The artifact appears in `dist/` together with its SHA-256.
 
 ## Test (Windows 10)
 
-Follow `Documentation/Testing/WindowsSmokeTest.md` and record the result in `Documentation/TestReports/`.
+Follow `Documentation/Testing/WindowsSmokeTest.md`, then `Documentation/Testing/DiagnosticsTest-0.2.0.md`, and record the result in `Documentation/TestReports/`.
 
 ## In-game
 
-- `/tpo` — show the loaded build (version, commit, tModLoader version).
-- Settings → Mod Configuration → TPO Client Settings.
+Enable diagnostics first: Settings → Mod Configuration → TPO Client Settings.
+
+- `/tpo` — loaded build (version, commit, tModLoader version).
+- `/tpo stats` — last 1000 frames: FPS, mean/p50/p95/p99/max frame time; process memory and GC.
+- `/tpo bench <scenario> [seconds=60] [warmup=10]` — record a benchmark to CSV; `/tpo bench stop` aborts.
+- Overlay: "Show overlay" in the config.
+
+Benchmark files: `Documents/My Games/Terraria/tModLoader/TPO/Benchmarks/`.
+Format: `Documentation/Diagnostics/CsvSchema.md`. Procedure: `Documentation/Testing/BenchmarkProtocol.md`.

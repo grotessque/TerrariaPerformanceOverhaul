@@ -19,6 +19,12 @@
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
 
+	<!-- Test and helper projects are not part of the mod assembly. -->
+	<ItemGroup>
+		<Compile Remove="tests/**" />
+		<None Remove="tests/**" />
+	</ItemGroup>
+
 	<!-- References -->
 	<ItemGroup>
 
@@ -26,7 +32,7 @@
 
 	<!--
 		Build identity: put the Git commit into AssemblyInformationalVersion ("<version>+<commit>[-dirty]").
-		TPOBuildInfo reads it at runtime. If Git is unavailable, no commit is injected and TPO reports "unknown".
+		TPOBuildIdentity reads it at runtime. If Git is unavailable, no commit is injected and TPO reports "unknown".
 		A value supplied by the caller (-p:SourceRevisionId=...) has priority, for CI.
 	-->
 	<Target Name="TpoResolveSourceRevision" BeforeTargets="InitializeSourceControlInformation" Condition="'$(SourceRevisionId)' == ''">

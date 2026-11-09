@@ -5,12 +5,26 @@ Configs: {
 	TPOClientConfig: {
 		DisplayName: TPO Client Settings
 
+		Headers: {
+			Diagnostics: Diagnostics
+		}
+
 		EnableDiagnostics: {
 			Label: Enable diagnostics
 			Tooltip:
 				'''
-				Master switch for TPO diagnostics.
-				Version 0.1.0 has no diagnostic collectors yet; this setting has no effect on performance.
+				Master switch for TPO diagnostics: frame-time and memory measurements,
+				the overlay, /tpo stats and /tpo bench.
+				Off: TPO does no measurement work.
+				'''
+		}
+
+		ShowOverlay: {
+			Label: Show overlay
+			Tooltip:
+				'''
+				Compact FPS / frame-time / memory overlay in the bottom-right corner.
+				Requires "Enable diagnostics". Refreshed twice per second.
 				'''
 		}
 	}

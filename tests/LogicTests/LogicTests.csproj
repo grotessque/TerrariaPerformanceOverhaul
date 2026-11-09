@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+		Dependency-free checks for TPO logic that does not touch Terraria/tModLoader.
+		Links the source files directly. Run: scripts/test.sh
+	-->
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImportDirectoryBuildProps>false</ImportDirectoryBuildProps>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="../../Common/Diagnostics/FrameStats.cs" Link="Linked/FrameStats.cs" />
+		<Compile Include="../../Common/Diagnostics/FrameTimeRing.cs" Link="Linked/FrameTimeRing.cs" />
+	</ItemGroup>
+</Project>

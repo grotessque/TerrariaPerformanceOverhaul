@@ -25,3 +25,5 @@ tml.local.props
 
 # Local build artifacts (see scripts/build.sh)
 dist/
+tests/**/bin/
+tests/**/obj/
