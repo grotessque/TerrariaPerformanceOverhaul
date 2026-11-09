@@ -1,0 +1,529 @@
+[20:39:18.152] [Main Thread/INFO] [tML]: Starting tModLoader client 1.4.4.9+2026.09.3.1|2026.09|stable|Stable|4f072c7a2aaad0c35ef7455f5195c526f2a9066a|5250978667663313130 built 03/11/2026 02:08
+[20:39:18.158] [Main Thread/INFO] [tML]: Log date: 09/11/2026
+[20:39:18.158] [Main Thread/INFO] [tML]: Running on Windows (v10.0.19045.0) X64 NetCore 8.0.0
+[20:39:18.161] [Main Thread/INFO] [tML]: CPU: 16 processors. RAM: 31.9 GB
+[20:39:18.161] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 8.0.0
+[20:39:18.161] [Main Thread/INFO] [tML]: Executable: C:\Program Files (x86)\Steam\steamapps\common\tModLoader\tModLoader.dll
+[20:39:18.161] [Main Thread/INFO] [tML]: Working Directory: C:\Program Files (x86)\Steam\steamapps\common\tModLoader
+[20:39:18.405] [Main Thread/INFO] [tML]: Attempt to Port from "C:/Users/cervi\Documents\My Games\Terraria\tModLoader" to "C:/Users/cervi\Documents\My Games\Terraria\tModLoader-1.4.3" aborted, "2026.9.3.1" is a newer version.
+[20:39:18.405] [Main Thread/WARN] [tML]: Saves paths had incorrect slashes somehow: "C:/Users/cervi\Documents\My Games\Terraria\tModLoader"=>"C:\Users\cervi\Documents\My Games\Terraria\tModLoader", "C:/Users/cervi\Documents\My Games\Terraria\tModLoader"=>"C:\Users\cervi\Documents\My Games\Terraria\tModLoader"
+[20:39:18.405] [Main Thread/INFO] [tML]: Saves Are Located At: C:\Users\cervi\Documents\My Games\Terraria\tModLoader
+[20:39:18.412] [Main Thread/INFO] [tML]: Display DPI: Diagonal DPI is 96. Vertical DPI is 96. Horizontal DPI is 96
+[20:39:18.412] [Main Thread/INFO] [tML]: High DPI Display detected: setting FNA to highdpi mode
+[20:39:18.414] [Main Thread/DEBUG] [FNA]: Querying linked library versions...
+[20:39:18.414] [Main Thread/DEBUG] [FNA]: SDL v2.28.2
+[20:39:18.414] [Main Thread/DEBUG] [FNA]: FNA3D v23.10.0
+[20:39:18.415] [Main Thread/DEBUG] [FNA]: FAudio v22.9.1
+[20:39:18.683] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: CWD is /steamapps/
+[20:39:18.689] [Main Thread/DEBUG] [tML]: Process.Start (UseShellExecute = False): "C:\Program Files (x86)\Steam\steamapps\common\tModLoader\dotnet\dotnet.exe" tModLoader.dll -terrariasteamclient 1496
+[20:39:18.986] [Main Thread/DEBUG] [TerrariaSteamClient]: Recv: init_success
+[20:39:18.986] [Main Thread/DEBUG] [TerrariaSteamClient]: Send: acknowledged
+[20:39:19.361] [Main Thread/INFO] [FNA]: SDL.SDL_Init(SDL.SDL_INIT_VIDEO)...
+[20:39:19.362] [Main Thread/INFO] [FNA]: Success
+[20:39:19.362] [Main Thread/INFO] [FNA]: SDL.SDL_InitSubSystem(SDL.SDL_INIT_GAMECONTROLLER)...
+[20:39:19.504] [Main Thread/INFO] [FNA]: Success
+[20:39:19.622] [Main Thread/DEBUG] [tML]: Native Resolve: Steamworks.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> steam_api
+[20:39:19.622] [Main Thread/DEBUG] [tML]: 	delegating to Steamworks.NET.AnyCPU resolver
+[20:39:19.762] [Main Thread/INFO] [Terraria]: Steam Cloud Quota: 819.3 MB available
+[20:39:19.766] [Main Thread/INFO] [tML]: Steam beta branch: None
+[20:39:19.767] [Main Thread/INFO] [tML]: SteamBackend: Running standard Steam Desktop Client API
+[20:39:19.769] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: C:\Program Files (x86)\Steam\steamapps\common\tModLoader\..\..\workshop
+[20:39:19.904] [Main Thread/INFO] [FNA]: SDL Video Diver: windows
+[20:39:19.904] [Main Thread/INFO] [FNA]: FNA3D Driver: D3D11
+[20:39:19.904] [Main Thread/INFO] [FNA]: D3D11 Adapter: NVIDIA GeForce RTX 3060
+[20:39:19.918] [Main Thread/INFO] [tML]: Terraria Steam Install Location assumed to be: C:\Program Files (x86)\Steam\steamapps\common\Terraria
+[20:39:20.266] [Main Thread/INFO] [tML]: Maximum Resolution is 2560 x 2560
+[20:39:20.272] [Main Thread/DEBUG] [Terraria]: Device Created, Adapter: LC27G5xT, DisplayMode: {{Width:2560 Height:1440 Format:Color}}, Profile: HiDef, Width: 2560, Height: 1440, Fullscreen: False, Display: \\.\DISPLAY1
+[20:39:20.274] [Main Thread/DEBUG] [Terraria]: Device Reset, Adapter: LC27G5xT, DisplayMode: {{Width:2560 Height:1440 Format:Color}}, Profile: HiDef, Width: 2560, Height: 1440, Fullscreen: False -> True, Display: \\.\DISPLAY1
+[20:39:20.276] [Main Thread/DEBUG] [Terraria]: Device Reset, Adapter: LC27G5xT, DisplayMode: {{Width:2560 Height:1440 Format:Color}}, Profile: HiDef, Width: 2560, Height: 1440, Fullscreen: True, Display: \\.\DISPLAY1
+[20:39:20.283] [Main Thread/INFO] [tML]: Language: ru-RU
+[20:39:20.467] [Main Thread/INFO] [FNA]: SDL Audio Driver: 
+[20:39:21.167] [8/DEBUG] [tML]: SSDP search line separator: CRLF
+[20:39:21.929] [8/DEBUG] [tML]: Hook System.Runtime.Loader.AssemblyLoadContext::ValidateAssemblyNameWithSimpleName(Assembly, string) added by tModLoader
+[20:39:27.495] [Main Thread/INFO] [tML]: Finding Mods...
+[20:39:27.526] [Main Thread/INFO] [tML]: 3 most recently changed workshop mods: CalamityModMusic v2.1 09.11.2026, CalamityMod v2.2.4 09.11.2026
+[20:39:27.526] [Main Thread/INFO] [tML]: Finding Mods...
+[20:39:27.809] [Main Thread/INFO] [tML]: Finding Mods...
+[20:39:27.811] [Main Thread/INFO] [tML]: Finding Mods...
+[20:39:29.160] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:29.162] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:39:29.163] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:39:29.165] [.NET TP Worker/INFO] [tML]: Поиск модов...
+[20:39:29.169] [.NET TP Worker/WARN] [tML]: The mod TerrariaPerformanceOverhaul.tmod was downloaded from the internet: Unknown
+[20:39:29.177] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Reflection.Metadata.resources, Version=8.0.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+[20:39:29.178] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Reflection.Metadata.resources, Version=8.0.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+[20:39:29.179] [.NET TP Worker/WARN] [tML]: Бесшумно пойманное исключение: 
+System.Exception: C:\Users\cervi\Documents\My Games\Terraria\tModLoader\Mods\TerrariaPerformanceOverhaul.tmod was downloaded from the internet (from Unknown) and has not been trusted.
+
+Mods may contain [c/FF0000:malicious] code, such as stealing passwords or installing viruses, especially mods not downloaded directly from Steam Workshop.
+
+This mod can be trusted from the mods menu.
+   at Terraria.ModLoader.Core.ModOrganizer.EnsureFileIsTrusted(ICollection`1 mods) in tModLoader\Terraria\ModLoader\Core\ModOrganizer.cs:line 662
+   at Terraria.ModLoader.Core.ModOrganizer.SelectAndSortMods(IEnumerable`1 availableMods, CancellationToken token) in tModLoader\Terraria\ModLoader\Core\ModOrganizer.cs:line 478
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token) in tModLoader\Terraria\ModLoader\ModLoader.cs:line 132
+   at Terraria.ModLoader.ModLoader.<>c__DisplayClass51_0.<BeginLoad>b__0() in tModLoader\Terraria\ModLoader\ModLoader.cs:line 117
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+
+[20:39:29.182] [.NET TP Worker/INFO] [tML]: Marked tModLoader installation files as corrupt in Steam. On Next Launch, User will have 'Verify Local Files' ran
+[20:39:29.183] [.NET TP Worker/INFO] [tML]: Disabling Mod: TerrariaPerformanceOverhaul
+[20:39:29.183] [.NET TP Worker/ERROR] [tML]: Во время загрузки мода TerrariaPerformanceOverhaul произошла ошибка. v0.4.1
+Мод(ы) и любые зависимости был(и) автоматически выключен(ы).
+System.Exception: C:\Users\cervi\Documents\My Games\Terraria\tModLoader\Mods\TerrariaPerformanceOverhaul.tmod was downloaded from the internet (from Unknown) and has not been trusted.
+
+Mods may contain [c/FF0000:malicious] code, such as stealing passwords or installing viruses, especially mods not downloaded directly from Steam Workshop.
+
+This mod can be trusted from the mods menu.
+   at Terraria.ModLoader.Core.ModOrganizer.EnsureFileIsTrusted(ICollection`1 mods) in tModLoader\Terraria\ModLoader\Core\ModOrganizer.cs:line 662
+   at Terraria.ModLoader.Core.ModOrganizer.SelectAndSortMods(IEnumerable`1 availableMods, CancellationToken token) in tModLoader\Terraria\ModLoader\Core\ModOrganizer.cs:line 478
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token) in tModLoader\Terraria\ModLoader\ModLoader.cs:line 132
+[20:39:31.854] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:39:31.856] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:39:31.857] [.NET TP Worker/INFO] [tML]: Поиск модов...
+[20:39:31.857] [.NET TP Worker/INFO] [tML]: Построение модов...
+[20:39:31.858] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 0ms
+[20:39:31.859] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:39:31.903] [.NET TP Worker/INFO] [tML]: Калибровка размеров...
+[20:39:32.236] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:39:32.298] [.NET TP Worker/INFO] [tML]: Завершение настройки: ModLoader (tModLoader) v2026.9.3.1
+[20:39:32.306] [.NET TP Worker/INFO] [tML]: RAM physical: tModLoader usage: 862,8 MB, All processes usage: 15,0 GB, Available: 16,9 GB, Total Installed: 31,9 GB
+[20:39:32.306] [.NET TP Worker/INFO] [tML]: RAM virtual: tModLoader usage: 1,6 GB, All processes usage: 13,7 GB
+[20:39:32.339] [.NET TP Worker/DEBUG] [tML]: GlobalItem registration stats. Count: 1, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[20:39:32.357] [.NET TP Worker/DEBUG] [tML]: GlobalNPC registration stats. Count: 2, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[20:39:32.360] [.NET TP Worker/DEBUG] [tML]: GlobalProjectile registration stats. Count: 0, Slots per Entity: 0
+	Instanced: 0, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 0, Est Memory Consumption: 0 bytes
+[20:39:32.446] [.NET TP Worker/INFO] [tML]: Добавление рецептов...
+[20:39:32.539] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:32.541] [.NET TP Worker/INFO] [tML]: Mod Load Completed in 684ms
+[20:39:32.562] [Main Thread/DEBUG] [tML]: Web Request: https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1281930&count=1&feeds=steam_community_announcements
+[20:39:34.201] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:34.203] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:34.204] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:34.204] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:39:34.204] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:39:36.118] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:39:36.120] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:39:37.017] [Main Thread/INFO] [tML]: Enabling Mod: TerrariaPerformanceOverhaul
+[20:39:38.087] [.NET TP Worker/INFO] [tML]: Выгрузка: ModLoader (tModLoader) v2026.9.3.1
+[20:39:39.184] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:39.185] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:39.185] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:39:39.186] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:39:39.186] [.NET TP Worker/INFO] [tML]: Поиск модов...
+[20:39:39.187] [.NET TP Worker/INFO] [tML]: Загрузка сборки: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:39:39.222] [.NET TP Worker/INFO] [tML]: Построение модов...
+[20:39:39.227] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:39:39.235] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 12ms
+[20:39:39.255] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:39:39.261] [.NET TP Worker/INFO] [TerrariaPerformanceOverhaul]: Config: EnableDiagnostics = True, ShowOverlay = False, EnableBenchmarkTools = True
+[20:39:39.273] [.NET TP Worker/WARN] [TerrariaPerformanceOverhaul]: Failed to load icon_small.png. Reason: icon_small.png does not exist.
+[20:39:39.282] [.NET TP Worker/INFO] [TerrariaPerformanceOverhaul]: Loading. TPO 0.4.1 (commit fa1ae289c089, Release) | tModLoader 2026.9.3.1 (Stable, branch stable) | .NET 8.0.0 | Microsoft Windows 10.0.19045
+[20:39:39.282] [.NET TP Worker/INFO] [tML]: Калибровка размеров...
+[20:39:39.623] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:39:39.624] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:39:39.669] [.NET TP Worker/INFO] [tML]: Завершение настройки: ModLoader (tModLoader) v2026.9.3.1
+[20:39:39.671] [.NET TP Worker/INFO] [tML]: Завершение настройки: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:39:39.676] [.NET TP Worker/INFO] [tML]: Mods using the most RAM: TerrariaPerformanceOverhaul 501,7 KB
+[20:39:39.680] [.NET TP Worker/INFO] [tML]: RAM physical: tModLoader usage: 895,9 MB, All processes usage: 15,0 GB, Available: 17,0 GB, Total Installed: 31,9 GB
+[20:39:39.681] [.NET TP Worker/INFO] [tML]: RAM virtual: tModLoader usage: 1,6 GB, All processes usage: 13,7 GB
+[20:39:39.702] [.NET TP Worker/DEBUG] [tML]: GlobalItem registration stats. Count: 1, Slots per Entity: 2
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[20:39:39.719] [.NET TP Worker/DEBUG] [tML]: GlobalNPC registration stats. Count: 2, Slots per Entity: 2
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[20:39:39.721] [.NET TP Worker/DEBUG] [tML]: GlobalProjectile registration stats. Count: 0, Slots per Entity: 0
+	Instanced: 0, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 0, Est Memory Consumption: 0 bytes
+[20:39:39.796] [.NET TP Worker/INFO] [tML]: Добавление рецептов...
+[20:39:39.867] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:39:39.868] [.NET TP Worker/INFO] [tML]: Mod Load Completed in 682ms
+[20:39:43.138] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:39:43.146] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:39:43.445] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:39:43.764] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:39:43.779] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:39:43.812] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:39:56.472] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: cleared 0 hostile NPCs, 0 projectiles, 0 items.
+[20:40:10.292] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: time set to midnight.
+[20:40:15.930] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: god mode on.
+[20:40:27.606] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned EyeofCthulhu x1.
+[20:40:46.256] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-eoc' started: warm-up 10s, duration 60s.
+[20:40:47.568] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=8.0.0.0, Culture=en-GB, PublicKeyToken=b03f5f7f11d50a3a
+[20:40:47.568] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: System.Net.Sockets, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a -> System.Net.Sockets.resources, Version=8.0.0.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+[20:41:56.270] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-eoc' finished: 3597 frames, 59.95 FPS avg, frame p95 17.94 ms, draw CPU mean 1.12 ms, update mean 0.21 ms. Files: C:\Users\cervi\Documents\My Games\Terraria\tModLoader\TPO\Benchmarks\20261109-204156_boss-eoc_fa1ae289c089_*.csv
+[20:42:00.258] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:42:00.283] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:42:00.409] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:42:00.467] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:42:00.495] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:42:00.502] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:42:02.535] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:42:02.537] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:42:03.219] [Main Thread/INFO] [tML]: Enabling Mod: CalamityModMusic
+[20:42:03.819] [Main Thread/INFO] [tML]: Enabling Mod: CalamityMod
+[20:42:04.904] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:42:05.015] [.NET TP Worker/INFO] [tML]: Выгрузка: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:42:05.020] [.NET TP Worker/INFO] [TerrariaPerformanceOverhaul]: Unloading.
+[20:42:05.021] [.NET TP Worker/INFO] [tML]: Выгрузка: ModLoader (tModLoader) v2026.9.3.1
+[20:42:06.116] [.NET TP Worker/WARN] [tML]: TerrariaPerformanceOverhaul mod class still using memory. Some content references have probably not been cleared. Use a heap dump to figure out why.
+[20:42:06.116] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:42:06.117] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.0.2.3 for tML 2022.9.47.46 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.2.1 for tML 2026.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityMod 2.1.2 for tML 2025.12.3.1 from Workshop. Reason: a newer version exists.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Selected CalamityMod 2.2.4 for tML 2026.6.3.4 from Workshop.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.2.2 for tML 2022.9.47.30 from Workshop. Reason: mod is for a different Terraria version/LTS release stream.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Skipped CalamityModMusic 2.0.4.3 for tML 2024.4.3.0 from Workshop. Reason: a newer version exists.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Selected CalamityModMusic 2.1 for tML 2025.12.3.0 from Workshop.
+[20:42:06.118] [.NET TP Worker/DEBUG] [tML]: Selected TerrariaPerformanceOverhaul 0.4.1 for tML 2026.9.3.1 from Local.
+[20:42:06.118] [.NET TP Worker/INFO] [tML]: Поиск модов...
+[20:42:06.615] [.NET TP Worker/INFO] [tML]: Загрузка сборки: CalamityModMusic (Calamity Mod Music) v2.1
+[20:42:06.631] [.NET TP Worker/INFO] [tML]: Загрузка сборки: CalamityMod (Calamity Mod) v2.2.4
+[20:42:07.100] [.NET TP Worker/INFO] [tML]: Загрузка сборки: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:42:07.104] [.NET TP Worker/INFO] [tML]: Построение модов...
+[20:42:07.112] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:42:07.129] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: CalamityModMusic (Calamity Mod Music) v2.1
+[20:42:07.139] [.NET TP Worker/WARN] [CalamityModMusic]: Failed to load icon_small.png. Reason: icon_small.png does not exist.
+[20:42:07.144] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: CalamityMod (Calamity Mod) v2.2.4
+[20:42:07.466] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawBackgroundBlackFill() added by CalamityMod
+[20:42:07.514] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::DrawBlack(bool) added by CalamityMod
+[20:42:07.516] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawBlack(bool) added by CalamityMod
+[20:42:07.521] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawNPC(int, bool) added by CalamityMod
+[20:42:07.559] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.ModLoader.LocalizationLoader::ExtractLocalizationFiles(string) added by CalamityMod
+[20:42:07.593] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Graphics.Effects.OverlayManager::Draw(SpriteBatch, RenderLayers, bool) added by CalamityMod
+[20:42:07.607] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Graphics.Light.LightingEngine::UpdateLightDecay() added by CalamityMod
+[20:42:07.805] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::OverrideLeftClick(Item[], int, int) added by CalamityMod
+[20:42:07.839] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_03_PortableStool(ref PlayerDrawSet) added by CalamityMod
+[20:42:07.861] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ProcessHitAgainstNPC(Item, Rectangle, int, float, int) added by CalamityMod
+[20:42:07.908] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::QuickGrapple() added by CalamityMod
+[20:42:07.932] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::QuickMount() added by CalamityMod
+[20:42:07.975] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawPendingMouseText() added by CalamityMod
+[20:42:07.984] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::dropItemCheck() added by CalamityMod
+[20:42:07.997] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by CalamityMod
+[20:42:08.024] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::Draw(SpriteBatch, Item[], int, int, Vector2, Color) added by CalamityMod
+[20:42:08.029] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ResetVisibleAccessories() added by CalamityMod
+[20:42:08.036] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::UpdateVisibleAccessory(int, Item, bool) added by CalamityMod
+[20:42:08.089] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_21_Head(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.096] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_12_Skin(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.108] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_13_Leggings(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.123] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_17_Torso(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.143] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_12_SkinComposite_BackArmShirt(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.153] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_28_ArmOverItem(ref PlayerDrawSet) added by CalamityMod
+[20:42:08.163] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayer(Camera, Player, Vector2, float, Vector2, float, float) added by CalamityMod
+[20:42:08.180] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by CalamityMod
+[20:42:08.237] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::CollectTaxes() added by CalamityMod
+[20:42:08.323] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.ShopHelper::ProcessMood(Player, NPC) added by CalamityMod
+[20:42:08.481] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::HoverOverNPCs(Rectangle) added by CalamityMod
+[20:42:08.483] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfoAccs_AdjustInfoTextColorsForNPC(NPC, ref Color, ref Color) added by CalamityMod
+[20:42:08.506] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.UI.Chat.ChatManager::DrawColorCodedStringShadow(SpriteBatch, DynamicSpriteFont, TextSnippet[], Vector2, Color, float, Vector2, Vector2, float, float) added by CalamityMod
+[20:42:08.520] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GrantPrefixBenefits(Item) added by CalamityMod
+[20:42:08.529] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Item::Prefix(int) added by CalamityMod
+[20:42:08.807] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::UpdateControlHolds() added by CalamityMod
+[20:42:08.809] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameInput.PlayerInput::SetZoom_MouseInWorld() added by CalamityMod
+[20:42:08.863] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.WallDrawing::DrawWalls() added by CalamityMod
+[20:42:08.868] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawTiles_GetLightOverride(int, int, Tile, ushort, short, short, Color) added by CalamityMod
+[20:42:08.874] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::TryReplantingTree(int, int) added by CalamityMod
+[20:42:08.904] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[20:42:08.909] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayerInternal(Camera, Player, Vector2, float, Vector2, float, float, float, bool) added by CalamityMod
+[20:42:08.945] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[20:42:08.948] [Main Thread/DEBUG] [Terraria]: Device Reset, Adapter: LC27G5xT, DisplayMode: {{Width:2560 Height:1440 Format:Color}}, Profile: HiDef, Width: 2560, Height: 1440, Fullscreen: True, Display: \\.\DISPLAY1
+[20:42:08.951] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::EnsureRenderTargetContent() added by CalamityMod
+[20:42:09.012] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[20:42:09.029] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod
+[20:42:09.031] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::SortDrawCacheWorms() added by CalamityMod
+[20:42:09.044] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::Draw(bool, bool, bool, int) added by CalamityMod
+[20:42:09.047] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.CommonCode::ModifyItemDropFromNPC(NPC, int) added by CalamityMod
+[20:42:09.050] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Events.MoonlordDeathDrama::RequestLight(float, Vector2) added by CalamityMod
+[20:42:09.083] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.TileDrawing::DrawSingleTile(TileDrawInfo, bool, int, Vector2, Vector2, int, int) added by CalamityMod
+[20:42:09.103] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.TileDrawing::DrawTrees() added by CalamityMod
+[20:42:09.123] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawBasicTile(Vector2, Vector2, int, int, TileDrawInfo, Rectangle, Vector2) added by CalamityMod
+[20:42:09.145] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime() added by CalamityMod
+[20:42:09.158] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod
+[20:42:09.184] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.NPC::DoDeathEvents(Player) added by CalamityMod
+[20:42:09.188] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::NPCLoot() added by CalamityMod
+[20:42:09.192] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::CollectTaxes() added by CalamityMod
+[20:42:09.195] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod
+[20:42:09.198] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::RerollVariation() added by CalamityMod
+[20:42:09.263] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[20:42:09.271] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::Hurt(PlayerDeathReason, int, int, out HurtInfo, bool, bool, int, bool, float, float, float) added by CalamityMod
+[20:42:09.273] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::PutHallowedArmorSetBonusOnCooldown() added by CalamityMod
+[20:42:09.310] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::DashMovement() added by CalamityMod
+[20:42:09.311] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::DashMovement() added by CalamityMod
+[20:42:09.313] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by CalamityMod
+[20:42:09.318] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[20:42:09.321] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::GiveImmuneTimeForCollisionAttack(int) added by CalamityMod
+[20:42:09.328] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::Update_NPCCollision() added by CalamityMod
+[20:42:09.339] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod
+[20:42:09.343] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod
+[20:42:09.345] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by CalamityMod
+[20:42:09.353] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::NewProjectile(IEntitySource, float, float, float, float, int, int, float, int, float, float, float) added by CalamityMod
+[20:42:09.357] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ApplyDamageToNPC(NPC, int, float, int, bool, DamageClass, bool) added by CalamityMod
+[20:42:09.420] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Wiring::HitWireSingle(int, int) added by CalamityMod
+[20:42:09.423] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.AWorldListItem::GetDifficulty(out string, out Color) added by CalamityMod
+[20:42:09.431] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Item::GetShimmered() added by CalamityMod
+[20:42:09.439] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::Teleport(Vector2, int, int) added by CalamityMod
+[20:42:09.440] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawSingleTile(TileDrawInfo, bool, int, Vector2, Vector2, int, int) added by CalamityMod
+[20:42:09.443] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::PlaceThing_CannonBall() added by CalamityMod
+[20:42:09.445] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::IsItemSlotUnlockedAndUsable(int) added by CalamityMod
+[20:42:09.456] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::AI_007_GrapplingHooks() added by CalamityMod
+[20:42:09.460] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Collision::SolidCollision(Vector2, int, int) added by CalamityMod
+[20:42:09.463] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Collision::SolidCollision(Vector2, int, int, bool) added by CalamityMod
+[20:42:09.469] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by CalamityMod
+[20:42:09.475] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::ApplyLifeAndOrMana(Item) added by CalamityMod
+[20:42:09.477] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::CheckMana(int, bool, bool) added by CalamityMod
+[20:42:09.479] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::CheckMana(Item, int, bool, bool) added by CalamityMod
+[20:42:09.486] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by CalamityMod
+[20:42:09.490] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::UpdatePettingAnimal() added by CalamityMod
+[20:42:09.531] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::PlayerFrame() added by CalamityMod
+[20:42:09.533] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::SlopeDownMovement() added by CalamityMod
+[20:42:09.536] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DamageVar(float, int, float) added by CalamityMod
+[20:42:09.539] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.NPC::ScaleStats_ApplyExpertTweaks() added by CalamityMod
+[20:42:09.604] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
+[20:42:09.655] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
+[20:42:09.796] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_026() added by CalamityMod
+[20:42:09.806] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_099_2() added by CalamityMod
+[20:42:09.814] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::AI_015_Flails() added by CalamityMod
+[20:42:09.821] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_015_Flails() added by CalamityMod
+[20:42:09.841] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::AI_120_StardustGuardian() added by CalamityMod
+[20:42:09.844] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ConsumeSolarFlare() added by CalamityMod
+[20:42:09.845] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::IsDamageDodgable() added by CalamityMod
+[20:42:09.938] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[20:42:09.943] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::ApplyVanillaHurtEffectModifiers(ref HurtModifiers) added by CalamityMod
+[20:42:09.946] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::ghostHeal(int, Vector2, Entity) added by CalamityMod
+[20:42:09.949] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Projectile::vampireHeal(int, Vector2, Entity) added by CalamityMod
+[20:42:09.953] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateJumpHeight() added by CalamityMod
+[20:42:09.968] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::WingMovement() added by CalamityMod
+[20:42:09.979] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
+[20:42:09.984] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
+[20:42:09.990] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::StatusPlayer(int) added by CalamityMod
+[20:42:10.015] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::GrowLivingTree(int, int, bool) added by CalamityMod
+[20:42:10.022] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod
+[20:42:10.041] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::hardUpdateWorld(int, int) added by CalamityMod
+[20:42:10.047] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::Chlorophyte(int, int) added by CalamityMod
+[20:42:10.052] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::SetDefaultOptions() added by CalamityMod
+[20:42:10.058] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::AddWorldSizeOptions(UIElement, float, MouseEvent, string, float) added by CalamityMod
+[20:42:10.091] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
+[20:42:10.108] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::DungeonHalls(int, int, ushort, int, bool) added by CalamityMod
+[20:42:10.119] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::IslandHouse(int, int, int) added by CalamityMod
+[20:42:10.155] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::AddBuriedChest(int, int, int, bool, int, bool, ushort) added by CalamityMod
+[20:42:10.161] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::StatusFromNPC(NPC) added by CalamityMod
+[20:42:10.164] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::HitEffect(HitInfo) added by CalamityMod
+[20:42:10.172] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.NPC::StrikeNPC(HitInfo, bool, bool) added by CalamityMod
+[20:42:10.175] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Graphics.CameraModifiers.PunchCameraModifier::Update(ref CameraInfo) added by CalamityMod
+[20:42:10.195] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_EmitUseVisuals(Item, Rectangle) added by CalamityMod
+[20:42:10.204] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::EmitEnchantmentVisualsAt(Vector2, int, int) added by CalamityMod
+[20:42:10.206] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Events.Sandstorm::HasSufficientWind() added by CalamityMod
+[20:42:10.213] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Item::TryGetPrefixStatMultipliersForItem(int, out float, out float, out float, out float, out float, out float, out int) added by CalamityMod
+[20:42:10.218] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod
+[20:42:10.220] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by CalamityMod
+[20:42:10.224] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::CanExplodeTile(int, int) added by CalamityMod
+[20:42:10.244] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_StartNight(ref bool) added by CalamityMod
+[20:42:10.249] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.WorldGen::AttemptFossilShattering(int, int, Tile, bool) added by CalamityMod
+[20:42:10.254] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GetPickaxeDamage(int, int, int, int, Tile) added by CalamityMod
+[20:42:10.260] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward_MainReward(List`1, IEntitySource, int, float, int, ref GetItemSettings) added by CalamityMod
+[20:42:10.262] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward_Bait(List`1, IEntitySource, int, float, ref GetItemSettings) added by CalamityMod
+[20:42:10.265] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward_Money(List`1, IEntitySource, int, float, ref GetItemSettings) added by CalamityMod
+[20:42:10.321] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::TileInteractionsUse(int, int) added by CalamityMod
+[20:42:10.333] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_CheckCanUse(Item) added by CalamityMod
+[20:42:10.340] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_UseEventItems(Item) added by CalamityMod
+[20:42:10.376] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::DrawInfoAccs() added by CalamityMod
+[20:42:10.379] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawHeldProj(PlayerDrawSet, Projectile) added by CalamityMod
+[20:42:10.385] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_CheckFishingBobbers(bool) added by CalamityMod
+[20:42:10.395] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Map.MapHelper::CreateMapTile(int, int, byte) added by CalamityMod
+[20:42:10.401] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.NPC::StrikeNPC(HitInfo, bool, bool) added by CalamityMod
+[20:42:10.406] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
+[20:42:10.414] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
+[20:42:10.443] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
+[20:42:10.447] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
+[20:42:10.449] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WaterfallManager::AddLight(int, int, int) added by CalamityMod
+[20:42:10.452] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WaterfallManager::StylizeColor(float, int, int, int, int, Tile, Color) added by CalamityMod
+[20:42:10.466] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::InternalPrepareDraw(Rectangle) added by CalamityMod
+[20:42:10.470] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.TileDrawing::EmitLiquidDrops(int, int, Tile, ushort) added by CalamityMod
+[20:42:10.481] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.NPC::Collision_WaterCollision(bool) added by CalamityMod
+[20:42:10.507] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Projectile::Update(int) added by CalamityMod
+[20:42:10.518] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Item::MoveInWorld(float, float, ref Vector2, int) added by CalamityMod
+[20:42:10.663] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[20:42:10.668] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::NewNPC(IEntitySource, int, int, int, int, float, float, float, float, int) added by CalamityMod
+[20:42:10.672] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.NPC::SpawnBoss(int, int, int, int) added by CalamityMod
+[20:42:10.677] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_UseBossSpawners(int, Item) added by CalamityMod
+[20:42:10.693] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::UpdateAudio_DecideOnNewMusic() added by CalamityMod
+[20:42:10.713] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::UpdateAudio_DecideOnTOWMusic() added by CalamityMod
+[20:42:10.766] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawSunAndMoon(SceneArea, Color, Color, float) added by CalamityMod
+[20:42:10.771] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::CheckMonoliths() added by CalamityMod
+[20:42:10.771] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawBackgroundBlackFill() added by CalamityMod
+[20:42:10.774] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DoDraw_Tiles_Solid() added by CalamityMod
+[20:42:10.777] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DoDraw_DrawNPCsOverTiles() added by CalamityMod
+[20:42:10.779] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
+[20:42:10.781] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawPlayers_AfterProjectiles() added by CalamityMod
+[20:42:10.790] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawDust() added by CalamityMod
+[20:42:10.798] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[20:42:10.800] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by CalamityMod
+[20:42:10.803] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
+[20:42:10.804] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
+[20:42:10.827] [.NET TP Worker/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
+[20:42:10.828] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
+[20:42:10.830] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.Main::DrawTiles(bool, bool, bool, int) added by CalamityMod
+[20:42:10.843] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawTiles(bool, bool, bool, int) added by CalamityMod
+[20:42:10.846] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawWalls() added by CalamityMod
+[20:42:10.920] [.NET TP Worker/WARN] [tML]: CalamityMod spent 254ms blocking on asset loading. Avoid using AssetRequestMode.ImmediateLoad during mod loading where possible
+[20:42:10.920] [.NET TP Worker/INFO] [tML]: Добавление ресурсов: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:42:10.923] [.NET TP Worker/INFO] [TerrariaPerformanceOverhaul]: Config: EnableDiagnostics = True, ShowOverlay = False, EnableBenchmarkTools = True
+[20:42:10.935] [.NET TP Worker/WARN] [TerrariaPerformanceOverhaul]: Failed to load icon_small.png. Reason: icon_small.png does not exist.
+[20:42:10.941] [.NET TP Worker/INFO] [TerrariaPerformanceOverhaul]: Loading. TPO 0.4.1 (commit fa1ae289c089, Release) | tModLoader 2026.9.3.1 (Stable, branch stable) | .NET 8.0.0 | Microsoft Windows 10.0.19045
+[20:42:10.942] [.NET TP Worker/WARN] [tML]: TerrariaPerformanceOverhaul spent 11ms blocking on asset loading. Avoid using AssetRequestMode.ImmediateLoad during mod loading where possible
+[20:42:12.012] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 4906ms
+[20:42:12.012] [.NET TP Worker/INFO] [tML]: Калибровка размеров...
+[20:42:13.001] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: ModLoader (tModLoader) v2026.9.3.1
+[20:42:13.001] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: CalamityModMusic (Calamity Mod Music) v2.1
+[20:42:13.003] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: CalamityMod (Calamity Mod) v2.2.4
+[20:42:14.091] [.NET TP Worker/WARN] [tML]: CalamityMod spent 372ms blocking on asset loading. Avoid using AssetRequestMode.ImmediateLoad during mod loading where possible
+[20:42:14.092] [.NET TP Worker/INFO] [tML]: Настройка ресурсов: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:42:14.201] [.NET TP Worker/INFO] [tML]: Завершение настройки: ModLoader (tModLoader) v2026.9.3.1
+[20:42:14.213] [.NET TP Worker/INFO] [tML]: Завершение настройки: CalamityModMusic (Calamity Mod Music) v2.1
+[20:42:14.214] [.NET TP Worker/INFO] [tML]: Завершение настройки: CalamityMod (Calamity Mod) v2.2.4
+[20:42:14.484] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Bestiary.BestiaryDatabaseNPCsPopulator::AddEmptyEntries_CrittersAndEnemies_Automated() added by CalamityMod
+[20:42:14.487] [.NET TP Worker/DEBUG] [tML]: Hook Terraria.GameContent.Bestiary.NPCWasNearPlayerTracker::ScanWorldForFinds() added by CalamityMod
+[20:42:14.511] [.NET TP Worker/WARN] [tML]: CalamityMod spent 258ms blocking on asset loading. Avoid using AssetRequestMode.ImmediateLoad during mod loading where possible
+[20:42:14.511] [.NET TP Worker/INFO] [tML]: Завершение настройки: TerrariaPerformanceOverhaul (TPO) v0.4.1
+[20:42:14.522] [.NET TP Worker/INFO] [tML]: Mods using the most RAM: CalamityMod 2,0 GB, CalamityModMusic 8,3 MB, TerrariaPerformanceOverhaul 2,3 MB
+[20:42:14.527] [.NET TP Worker/INFO] [tML]: RAM physical: tModLoader usage: 3,0 GB, All processes usage: 16,6 GB, Available: 15,4 GB, Total Installed: 31,9 GB
+[20:42:14.527] [.NET TP Worker/INFO] [tML]: RAM virtual: tModLoader usage: 6,0 GB, All processes usage: 17,5 GB
+[20:42:14.593] [.NET TP Worker/DEBUG] [tML]: GlobalItem registration stats. Count: 16, Slots per Entity: 10
+	Instanced: 8, Conditional with slot: 3, Conditional by type: 1, Applies to single type: 1
+	List Permutations: 16, Est Memory Consumption: 1168 bytes
+[20:42:14.638] [.NET TP Worker/DEBUG] [tML]: GlobalNPC registration stats. Count: 13, Slots per Entity: 9
+	Instanced: 7, Conditional with slot: 2, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 22, Est Memory Consumption: 1072 bytes
+[20:42:14.665] [.NET TP Worker/DEBUG] [tML]: GlobalProjectile registration stats. Count: 6, Slots per Entity: 3
+	Instanced: 3, Conditional with slot: 2, Conditional by type: 1, Applies to single type: 0
+	List Permutations: 9, Est Memory Consumption: 320 bytes
+[20:42:14.870] [.NET TP Worker/INFO] [tML]: Добавление рецептов...
+[20:42:15.135] [.NET TP Worker/INFO] [tML]: Finding Mods...
+[20:42:15.136] [.NET TP Worker/INFO] [tML]: Mod Load Completed in 9017ms
+[20:42:17.296] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:42:17.312] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:42:17.592] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:42:17.666] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:42:17.676] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:42:17.705] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:42:23.102] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: cleared 0 hostile NPCs, 0 projectiles, 0 items.
+[20:42:29.023] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: time set to midnight.
+[20:42:34.228] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: god mode on.
+[20:42:48.540] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned EyeofCthulhu x1.
+[20:43:10.258] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-eoc-calaimty' started: warm-up 10s, duration 60s.
+[20:44:20.273] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-eoc-calaimty' finished: 3597 frames, 59.95 FPS avg, frame p95 18.55 ms, draw CPU mean 1.62 ms, update mean 0.51 ms. Files: C:\Users\cervi\Documents\My Games\Terraria\tModLoader\TPO\Benchmarks\20261109-204420_boss-eoc-calaimty_fa1ae289c089_*.csv
+[20:44:24.154] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:44:24.176] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:44:24.235] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:44:24.280] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:44:24.296] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:44:24.302] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:44:26.354] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:44:26.355] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:44:26.441] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:44:26.605] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:44:26.677] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:44:26.680] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:44:26.706] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:44:37.448] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:44:37.472] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:44:37.520] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:44:37.565] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:44:37.581] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:44:37.587] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:44:40.065] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:44:40.066] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:44:40.154] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:44:40.319] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:44:40.390] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:44:40.393] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:44:40.419] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:45:41.967] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned CalamityMod/DesertScourgeBody x1.
+[20:46:28.906] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned CalamityMod/DesertScourgeBody x1.
+[20:47:01.783] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned CalamityMod/DesertScourgeHead x1.
+[20:47:10.491] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:47:10.517] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:47:10.576] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:47:10.631] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:47:10.650] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:47:10.657] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:47:12.859] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:47:12.859] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:47:13.024] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:47:13.283] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:47:13.390] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:47:13.397] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:47:13.428] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:47:27.772] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:47:27.798] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:47:27.852] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:47:27.900] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:47:27.916] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:47:27.923] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:47:29.856] [.NET TP Worker/INFO] [Terraria]: Loading World: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:47:29.857] [.NET TP Worker/INFO] [StatusText]: Очистка данных карты...
+[20:47:29.944] [.NET TP Worker/INFO] [StatusText]: Загрузка данных мира...
+[20:47:30.107] [.NET TP Worker/INFO] [StatusText]: Настройка жидкостей...
+[20:47:30.181] [.NET TP Worker/INFO] [StatusText]: Загрузка данных карты...
+[20:47:30.185] [.NET TP Worker/INFO] [StatusText]: Создание карты...
+[20:47:30.209] [Main Thread/INFO] [Terraria]: Entering world with player: 123, IsCloud=False, Width: 4200, Height: 1200, Evil: 0, GameMode: 3
+[20:47:44.669] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: spawned CalamityMod/DesertScourgeHead x1.
+[20:47:48.071] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark tool: god mode on.
+[20:48:11.908] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-scourge-calamity' started: warm-up 10s, duration 60s.
+[20:49:21.940] [Main Thread/INFO] [TerrariaPerformanceOverhaul]: Benchmark 'boss-scourge-calamity' finished: 3598 frames, 59.95 FPS avg, frame p95 18.61 ms, draw CPU mean 1.62 ms, update mean 0.59 ms. Files: C:\Users\cervi\Documents\My Games\Terraria\tModLoader\TPO\Benchmarks\20261109-204921_boss-scourge-calamity_fa1ae289c089_*.csv
+[20:49:27.379] [.NET TP Worker/INFO] [StatusText]: Создание резервной копии файла персонажа
+[20:49:27.435] [.NET TP Worker/INFO] [StatusText]: Сохранение данных о мире...
+[20:49:27.481] [.NET TP Worker/INFO] [StatusText]: Подтверждение сохранения мира...
+[20:49:27.496] [.NET TP Worker/INFO] [StatusText]: Резервное копирование файла мира...
+[20:49:27.503] [.NET TP Worker/INFO] [StatusText]: Сохранение модовых данных мира
+[20:49:32.252] [Main Thread/DEBUG] [TerrariaSteamClient]: Send: shutdown
