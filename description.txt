@@ -1,1 +1,4 @@
-Modify this file with a description of your mod.
+Terraria Performance Overhaul (TPO) — diagnostics-first performance mod.
+
+Development build. This version only establishes build identity, configuration and clean load/unload.
+It does not change gameplay and does not apply any performance optimizations yet.

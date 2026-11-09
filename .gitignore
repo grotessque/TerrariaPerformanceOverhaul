@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# Compiled mods
+*.tmod
+
+# IDE / local user settings
+.vs/
+.vscode/
+*.user
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+
+# Machine-specific tModLoader path
+tml.local.props
+
+# Local build artifacts (see scripts/build.sh)
+dist/

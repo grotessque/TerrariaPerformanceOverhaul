@@ -1,3 +1,5 @@
 displayName = TPO
 author = Grotessque
-version = 0.1
+version = 0.1.0
+homepage = https://github.com/grotessque/TerrariaPerformanceOverhaul
+buildIgnore = *.csproj, *.user, obj/*, bin/*, .vs/*, .idea/*, .git/*, .gitignore, Properties/*, docs/*, Documentation/*, scripts/*, CLAUDE.md, README.md, tml.local.props, tml.local.props.example, dist/*

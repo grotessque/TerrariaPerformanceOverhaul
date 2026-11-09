@@ -1,0 +1,9 @@
+<!--
+	Copy to tml.local.props (ignored by Git) when the repository is NOT inside tModLoader's ModSources folder.
+	Point TmlTargetsPath to tMLMod.targets of the exact tModLoader version you build against.
+-->
+<Project>
+	<PropertyGroup>
+		<TmlTargetsPath Condition="'$(TmlTargetsPath)' == ''">/home/USER/tools/tModLoader-vYYYY.MM.N.N/tMLMod.targets</TmlTargetsPath>
+	</PropertyGroup>
+</Project>
