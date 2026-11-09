@@ -21,7 +21,12 @@ build and variability is not a result.
 |---|---|---|---|
 | `spawn-idle` | TPO only | Diagnostics on, overlay off | Steady-state baseline, vanilla content |
 | `spawn-idle-overlay` | TPO only | Diagnostics on, overlay on | Overlay cost vs `spawn-idle` |
-| `spawn-idle-<modpack>` | TPO + modpack (e.g. `calamity`) | Diagnostics on, overlay off | Baseline for a mod combination (Plan 03) |
+| `spawn-idle-calamity` | TPO + Calamity Mod (no Calamity Music, no other mods) | Diagnostics on, overlay off; world difficulty unchanged (no Revengeance/Death) | Cost of Calamity being loaded in the same idle scene (Plan 03) |
+| `spawn-idle-<modpack>` | TPO + other modpack | Diagnostics on, overlay off | Baseline for a mod combination (Plan 03) |
+
+Mod-combination scenarios use the **same world, character, position and TPO build** as the vanilla `spawn-idle`
+baseline they are compared with. The 0.2.0/0.3.0 baselines used world `123` at tile `2095,227`, not the
+`tpobench1` world from section 1; keep using world `123` for comparisons with those baselines.
 
 Add new scenarios here before using them. Use only letters, digits, `_` and `-` in names.
 
