@@ -31,16 +31,36 @@ namespace TerrariaPerformanceOverhaul.Common.BenchmarkTools
 
 		// ---- NPC lookup ----
 
-		/// <summary>Resolves a numeric id, a vanilla internal name (e.g. "KingSlime") or "Mod/Name" (e.g. "CalamityMod/...").</summary>
+		/// <summary>
+		/// Resolves a numeric id, a vanilla internal name (e.g. "KingSlime") or "Mod/Name" (e.g. "CalamityMod/...").
+		/// Exact match first; then a case-insensitive match on the internal name.
+		/// </summary>
 		public static bool TryResolveNpc(string name, out int type) {
 			type = 0;
-			if (int.TryParse(name, NumberStyles.Integer, CultureInfo.InvariantCulture, out int id))
-				return id > 0 && id < NPCLoader.NPCCount && (type = id) > 0;
+			if (int.TryParse(name, NumberStyles.Integer, CultureInfo.InvariantCulture, out int id)) {
+				if (id <= 0 || id >= NPCLoader.NPCCount)
+					return false;
+				type = id;
+				return true;
+			}
 
-			if (name.Contains('/'))
-				return ModContent.TryFind(name, out ModNPC modNpc) && (type = modNpc.Type) > 0;
+			if (name.Contains('/') && ModContent.TryFind(name, out ModNPC modNpc)) {
+				type = modNpc.Type;
+				return true;
+			}
 
-			return NPCID.Search.TryGetId(name, out type) && type > 0;
+			if (!name.Contains('/') && NPCID.Search.TryGetId(name, out type) && type > 0)
+				return true;
+
+			for (int t = 1; t < NPCLoader.NPCCount; t++) {
+				if (string.Equals(InternalName(t), name, StringComparison.OrdinalIgnoreCase)) {
+					type = t;
+					return true;
+				}
+			}
+
+			type = 0;
+			return false;
 		}
 
 		public static string InternalName(int type) =>

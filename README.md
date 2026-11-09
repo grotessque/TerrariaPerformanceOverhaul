@@ -3,8 +3,8 @@
 A diagnostics-first performance mod for tModLoader. TPO measures first and optimizes only where
 measurements justify it, while preserving vanilla and other mods' behavior.
 
-**Status:** 0.4.0 development — diagnostics, benchmarks and benchmark scene tools. No performance optimizations yet.
-Windows status: 0.1.0, 0.2.0, 0.3.0 PASSED; 0.4.0 NOT TESTED. Compatibility: `Documentation/Compatibility/CompatibilityMatrix.md`.
+**Status:** 0.4.1 development — diagnostics, benchmarks and benchmark scene tools. No performance optimizations yet.
+Windows status: 0.1.0, 0.2.0, 0.3.0 PASSED; 0.4.1 NOT TESTED (0.4.0: NPC names were lowercased by tModLoader, fixed). Compatibility: `Documentation/Compatibility/CompatibilityMatrix.md`.
 
 ## Layout
 

@@ -1,6 +1,6 @@
 Terraria Performance Overhaul (TPO) — diagnostics-first performance mod.
 
-Development build 0.4.0: measurement and benchmark tools. TPO applies no optimizations yet.
+Development build 0.4.1: measurement and benchmark tools. TPO applies no optimizations yet.
 Optional benchmark scene tools (off by default, single player) can change the game: god mode, spawning, events, time.
 
 - Rolling frame-time statistics (FPS, mean, p50/p95/p99, max), CPU draw and world-update time, process memory/GC indicators.

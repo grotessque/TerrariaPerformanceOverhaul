@@ -32,6 +32,11 @@ namespace TerrariaPerformanceOverhaul.Common.Commands
 		private static readonly CultureInfo Inv = CultureInfo.InvariantCulture;
 
 		public override CommandType Type => CommandType.Chat;
+
+		// tModLoader lowercases the whole input of case-insensitive commands (CommandLoader.HandleCommand, verified from IL).
+		// NPC names ("EyeofCthulhu", "Mod/Name") are case-sensitive in Terraria, so keep the input as typed.
+		// Subcommands and keywords are lowercased explicitly below.
+		public override bool IsCaseSensitive => true;
 		public override string Command => "tpo";
 		public override string Usage => "/tpo [stats | bench <scenario> [seconds] [warmup] | bench stop | god | find | spawn | event | time | clear]";
 		public override string Description => "TPO build identity, diagnostics and benchmarks.";
