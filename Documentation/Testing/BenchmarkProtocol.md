@@ -46,6 +46,10 @@ UI scale unchanged; world `123`; Journey powers: time frozen, enemy spawn rate d
 | `boss-eoc` | TPO only | `EyeofCthulhu` |
 | `boss-eoc-calamity` | TPO + Calamity | `EyeofCthulhu` (same vanilla boss, with Calamity loaded) |
 | `boss-<name>-calamity` | TPO + Calamity | a Calamity boss, name from `/tpo find`; record the exact name in the report |
+| `boss-scal-calamity` | TPO + Calamity | `CalamityMod/SupremeCalamitas` |
+| `boss-providence-calamity` | TPO + Calamity | `CalamityMod/Providence` |
+| `frostmoon-calamity` / `frostmoon` | TPO + Calamity / TPO only | `/tpo event frostmoon` (wave 1, no kills) |
+| `zombies50-calamity` / `zombies50` | TPO + Calamity / TPO only | `/tpo spawn Zombie 50` |
 
 Procedure for one boss run (repeat 3× per scenario, one game launch per mod set):
 1. Stand at the fixed position. `/tpo clear`, `/tpo time midnight`, `/tpo god on`.
