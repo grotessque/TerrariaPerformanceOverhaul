@@ -4,7 +4,7 @@ A diagnostics-first performance mod for tModLoader. TPO measures first and optim
 measurements justify it, while preserving vanilla and other mods' behavior.
 
 **Status:** 0.1.0 development. Foundation only: build identity, configuration, clean load/unload.
-No performance optimizations yet. Windows status: NOT TESTED.
+No performance optimizations yet. Windows status: PASSED for 0.1.0 (f83727af71ec).
 
 ## Layout
 

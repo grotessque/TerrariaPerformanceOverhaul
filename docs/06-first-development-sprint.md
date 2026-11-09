@@ -8,36 +8,36 @@ Produce the first minimal TPO build that loads on the Windows test PC, reports i
 
 ## A. Repository reconnaissance
 
-- [ ] Inspect repository files and generated tModLoader template.
-- [ ] Detect exact tModLoader version/channel.
-- [ ] Detect target framework and installed .NET SDK.
-- [ ] Identify the actual build workflow.
-- [ ] Build the untouched template and record output.
-- [ ] Record findings in `Documentation/Environment.md`.
+- [x] Inspect repository files and generated tModLoader template.
+- [x] Detect exact tModLoader version/channel.
+- [x] Detect target framework and installed .NET SDK.
+- [x] Identify the actual build workflow.
+- [x] Build the untouched template and record output.
+- [x] Record findings in `Documentation/Environment.md`.
 
 ## B. Minimal lifecycle
 
-- [ ] Verify main `Mod` class and internal mod name.
-- [ ] Add concise load/unload logging if missing.
-- [ ] Add TPO version/build identity helper.
-- [ ] Ensure static state and resources are cleaned up on unload.
-- [ ] Build again.
+- [x] Verify main `Mod` class and internal mod name.
+- [x] Add concise load/unload logging if missing.
+- [x] Add TPO version/build identity helper.
+- [x] Ensure static state and resources are cleaned up on unload.
+- [x] Build again.
 
 ## C. Minimal configuration
 
-- [ ] Add a master diagnostics setting only if the current tModLoader config API supports it cleanly.
-- [ ] Keep diagnostics low-overhead and conservative by default.
-- [ ] Do not add placeholder settings for hypothetical future optimizations.
+- [x] Add a master diagnostics setting only if the current tModLoader config API supports it cleanly.
+- [x] Keep diagnostics low-overhead and conservative by default.
+- [x] Do not add placeholder settings for hypothetical future optimizations.
 
 ## D. Windows smoke test
 
-- [ ] Publish a development artifact with commit hash.
-- [ ] Install it on Windows 10.
-- [ ] Enable TPO and reload mods.
-- [ ] Confirm startup log and mod version.
-- [ ] Disable TPO and reload.
-- [ ] Confirm clean unload and no new errors.
-- [ ] Save test report and relevant logs.
+- [x] Publish a development artifact with commit hash.
+- [x] Install it on Windows 10.
+- [x] Enable TPO and reload mods.
+- [x] Confirm startup log and mod version.
+- [x] Disable TPO and reload.
+- [x] Confirm clean unload and no new errors.
+- [x] Save test report and relevant logs.
 
 ## Sprint exit criteria
 

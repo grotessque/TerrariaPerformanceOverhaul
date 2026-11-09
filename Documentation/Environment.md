@@ -57,4 +57,4 @@ changes) as `SourceRevisionId`; the .NET SDK appends it to `AssemblyInformationa
 | Date | Commit | Result | Notes |
 |---|---|---|---|
 | 2026-11-09 | 4f5a667 (untouched template) | NOT RUN to completion | First attempt from the real path failed with `NETSDK1013` because `..\tModLoader.targets` does not exist outside ModSources. Fixed by the `TmlTargetsPath` resolution above. |
-| 2026-11-09 | sprint 06 changes | PENDING | Build to be run by the developer: `scripts/build.sh`. |
+| 2026-11-09 | f83727af71ec | PASSED (build: 0 warnings, 0 errors) | `scripts/build.sh`; Windows smoke test PASSED, see `TestReports/2026-11-09-0.1.0-f83727af71ec.md`. |
