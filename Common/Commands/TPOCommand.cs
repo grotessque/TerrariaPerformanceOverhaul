@@ -75,6 +75,9 @@ namespace TerrariaPerformanceOverhaul.Common.Commands
 				"Last {0} frames: {1:0.0} FPS avg | mean {2:0.00} ms | p50 {3:0.00} | p95 {4:0.00} | p99 {5:0.00} | max {6:0.00} ms",
 				s.Count, s.AvgFps, s.MeanMs, s.P50Ms, s.P95Ms, s.P99Ms, s.MaxMs), Color.LightGreen);
 			caller.Reply(string.Format(Inv,
+				"CPU (last 0.5 s): draw {0:0.00} ms/frame | world update {1:0.00} ms/update",
+				diag.LatestDrawCpuMs, diag.LatestUpdateMs), Color.LightGray);
+			caller.Reply(string.Format(Inv,
 				"Process: alloc {0:0.00} MB/s | managed heap {1:0.0} MB | working set {2:0} MB | GC {3}/{4}/{5} | GC pause total {6:0} ms",
 				diag.LatestAllocBytesPerS / (1024 * 1024), m.ManagedHeapBytes / (1024.0 * 1024.0), m.WorkingSetBytes / (1024.0 * 1024.0),
 				m.Gen0Collections, m.Gen1Collections, m.Gen2Collections, m.GcPauseMsTotal), Color.LightGray);

@@ -1,20 +1,21 @@
-# Diagnostics functional test (0.2.0)
+# Diagnostics functional test (0.2.0+)
 
-Run after the smoke test (`WindowsSmokeTest.md`, version 0.2.0) passes.
+Run after the smoke test (`WindowsSmokeTest.md`, version under test) passes.
 
 1. Config: "Enable diagnostics" and "Show overlay" are off by default. Type `/tpo stats`.
    Expected: message to enable diagnostics first.
 2. Enable "Enable diagnostics" only. Log line: `Config: EnableDiagnostics = True, ShowOverlay = False`.
    No overlay is visible.
-3. `/tpo stats`. Expected: 2 lines; frame count up to 1000. If an independent FPS counter is available
+3. `/tpo stats`. Expected: 3 lines (frame stats, CPU draw/update, process memory); frame count up to 1000. If an independent FPS counter is available
    (Steam overlay FPS counter, PresentMon, CapFrameX), the average FPS should be close to it.
    With the default frame limit, FPS should be close to 60 and mean frame time close to 16.7 ms.
-4. Enable "Show overlay". Expected: 3 lines bottom-right, updated twice per second. Values change when you
+4. Enable "Show overlay". Expected: 4 lines bottom-right (FPS/frame, percentiles, CPU draw/update, memory), updated twice per second. Values change when you
    move around a busy area.
 5. `/tpo bench test 10 2`. Expected: start message; after about 12 s, "finished" message and the folder name.
-   The overlay shows a 4th line with the bench state while it runs.
+   The overlay shows a 5th line with the bench state while it runs.
 6. Open `Documents\My Games\Terraria\tModLoader\TPO\Benchmarks\`. Expected: three CSV files.
-   `_summary.csv` contains `tpo_commit` matching the build and `frames` > 0. `_frames.csv` has `frames` + 1 lines.
+   `_summary.csv` contains `tpo_commit` matching the build, `frames` > 0, `cpu_name` and `gpu_name` with your hardware,
+   `draw_cpu_ms_mean` and `update_ms_per_update_mean` filled. `_frames.csv` has `frames` + 1 lines.
 7. `/tpo bench test 30 0`, then `/tpo bench stop` after a few seconds. Expected: "aborted" message, no new files.
 8. Start `/tpo bench test 30 0`, then exit the world to the menu. Expected: log line `aborted: the world was unloaded`,
    no new files, no errors.

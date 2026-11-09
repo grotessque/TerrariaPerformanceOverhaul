@@ -3,8 +3,8 @@
 A diagnostics-first performance mod for tModLoader. TPO measures first and optimizes only where
 measurements justify it, while preserving vanilla and other mods' behavior.
 
-**Status:** 0.2.0 development — diagnostics and benchmarks (Plan 01). No performance optimizations yet.
-Windows status: 0.1.0 PASSED (f83727af71ec); 0.2.0 NOT TESTED.
+**Status:** 0.3.0 development — diagnostics and benchmarks (Plan 01). No performance optimizations yet.
+Windows status: 0.1.0 PASSED; 0.2.0 PASSED (6de6ff8dec65); 0.3.0 NOT TESTED.
 
 ## Layout
 
@@ -33,14 +33,14 @@ The artifact appears in `dist/` together with its SHA-256.
 
 ## Test (Windows 10)
 
-Follow `Documentation/Testing/WindowsSmokeTest.md`, then `Documentation/Testing/DiagnosticsTest-0.2.0.md`, and record the result in `Documentation/TestReports/`.
+Follow `Documentation/Testing/WindowsSmokeTest.md`, then `Documentation/Testing/DiagnosticsTest.md`, and record the result in `Documentation/TestReports/`.
 
 ## In-game
 
 Enable diagnostics first: Settings → Mod Configuration → TPO Client Settings.
 
 - `/tpo` — loaded build (version, commit, tModLoader version).
-- `/tpo stats` — last 1000 frames: FPS, mean/p50/p95/p99/max frame time; process memory and GC.
+- `/tpo stats` — last 1000 frames: FPS, mean/p50/p95/p99/max frame time; CPU draw/update time; process memory and GC.
 - `/tpo bench <scenario> [seconds=60] [warmup=10]` — record a benchmark to CSV; `/tpo bench stop` aborts.
 - Overlay: "Show overlay" in the config.
 

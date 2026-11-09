@@ -25,6 +25,17 @@ build and variability is not a result.
 
 Add new scenarios here before using them. Use only letters, digits, `_` and `-` in names.
 
+## 2a. Which metrics to compare
+
+With vsync on (the default), `frame_ms_*` is pinned to the refresh period (60 Hz → 16.7 ms) and shows pacing, not
+work. Measured in 0.2.0: mean frame time equalled the refresh period in every run. Therefore:
+
+- **Primary (vsync-independent):** `draw_cpu_ms_mean/p95`, `update_ms_per_update_mean`, `update_ms_per_frame_p95`,
+  per-category `update_*_ms_per_update`, `alloc_bytes_per_s`, `gen0_collections`, `gc_pause_ms`.
+- **Hitches:** `frame_ms_p99`, `frame_ms_max`, `frames_over_2x_p50`, `frames_over_33_3ms`.
+- **Throughput (optional):** an extra run with vsync off. Record it as a separate scenario (suffix `-novsync`);
+  check `updates_per_s` — if it is not about 60, game speed changed and the run is not comparable with vsync runs.
+
 ## 3. Procedure for one measurement set
 
 1. Start tModLoader with the required mod list. Enable TPO diagnostics in the config.

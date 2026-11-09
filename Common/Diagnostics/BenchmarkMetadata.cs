@@ -36,10 +36,13 @@ namespace TerrariaPerformanceOverhaul.Common.Diagnostics
 			Add("runtime", () => id?.Runtime);
 			Add("os", () => id?.OS);
 
-			// Hardware. There is no portable CPU-model API; PROCESSOR_IDENTIFIER is set on Windows (family/model only).
+			// Hardware. There is no portable CPU/GPU-name API: names come from the Windows registry (read-only, once per run).
+			Add("cpu_name", WindowsHardware.CpuName);
 			Add("cpu_logical_cores", () => Environment.ProcessorCount);
 			Add("cpu_identifier", () => Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER"));
-			Add("gpu_adapter", () => Main.instance?.GraphicsDevice?.Adapter?.Description);
+			Add("gpu_name", WindowsHardware.GpuNames);
+			// FNA's adapter description. Observed in 0.2.0 to be the monitor name (e.g. "LC27G5xT"), not the GPU.
+			Add("display_device", () => Main.instance?.GraphicsDevice?.Adapter?.Description);
 			Add("gc_total_available_memory_bytes", () => GC.GetGCMemoryInfo().TotalAvailableMemoryBytes);
 			Add("gc_server", () => System.Runtime.GCSettings.IsServerGC);
 
